@@ -1,0 +1,73 @@
+{"joggers": [
+    {
+      "brand": "Malus",
+      "size": "Apple",
+      "image-url": "",
+      "price": 0,
+      "color": 1
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 2
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 3
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 4
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 5
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 6
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 7
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 8
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 9
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 0,
+        "color": 10
+    }
+  ]
+}

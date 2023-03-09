@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+.navigation .logo{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    align-items: center;
+}
+.navigation .logo .point1{
+    width: 80px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.navigation .logo .menuButton .dingbat{
+    width: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.navigation .logo .point3{
+    width: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.navigation .links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 80%;
+}
+.navigation .links li{
+    margin: 2px;
+    padding: 10px;
+    display: none;
+    border-bottom: 2px solid rgb(224, 191, 4);
+}
+.navigation .links li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation .responsive li{
+    display: block;
+    z-index: +1;
+}
+.navigation .responsive{
+    position: fixed;
+    width: 300px;
+}
+.navigation .responsive{
+    transition-delay: 5s;
+}
+.homePage .homeBanner img{
+    width: 100%;
+}
+.homePage .homeCategories{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.homePage .homeCategories .homeCards{
+    flex: 1 1 100%;
+    width: 60px;
+    height: 70px;
+    border: 2px solid  rgb(224, 191, 4);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.homeCards:hover{
+    transition-duration: 1s;
+    transform: scale(1.5);
+}
+.homePage .homeCategories .homeCards img{
+    width: 50px;
+    height: 50px;
+}
+.homePage .homeCategories .homeCards a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: .7rem;
+}

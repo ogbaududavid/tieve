@@ -1,0 +1,63 @@
+{"pieces": [
+    {
+      "description": "Malus",
+      "size": "Apple",
+      "image-url": "",
+      "price": 1
+    },
+    {
+        "description": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 2
+    },
+    {
+        "description": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 3
+    },
+    {
+        "description": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 4
+    },
+    {
+        "description": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 5
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 6
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 7
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 8
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 9
+    },
+    {
+        "brand": "Malus",
+        "size": "Apple",
+        "image-url": "",
+        "price": 10
+    }
+  ]
+}
