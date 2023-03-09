@@ -28,17 +28,23 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    opacity: 80%;
+    opacity: 90%;
 }
 .navigation .links li{
-    margin: 2px;
-    padding: 10px;
     display: none;
-    border-bottom: 2px solid rgb(224, 191, 4);
+}
+.navigation .links li:hover{
+    background-color: white;
 }
 .navigation .links li a{
     text-decoration: none;
+    display: block;
     color: white;
+    margin: 2px;
+    padding: 10px;
+}
+.navigation .links li a:hover{
+    color: black;
 }
 .navigation .responsive li{
     display: block;
@@ -53,29 +59,31 @@ body{
 }
 .homePage .homeBanner img{
     width: 100%;
+    margin-bottom: 50px;
 }
 .homePage .homeCategories{
+    margin-bottom: 20px;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 .homePage .homeCategories .homeCards{
     flex: 1 1 100%;
     width: 60px;
     height: 70px;
-    border: 2px solid  rgb(224, 191, 4);
     border-radius: 10px;
     padding: 5px;
     margin: 10px;
-    box-shadow: 0 0 10px white;
     display: flex;
     flex-direction: column;
     align-items: center;
 } 
 .homeCards:hover{
     transition-duration: 1s;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .homePage .homeCategories .homeCards img{
     width: 50px;
