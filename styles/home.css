@@ -1,6 +1,5 @@
 body{
     background-color: black;
-    margin: 10px;
 }
 main{
     height: 100vh;
@@ -33,6 +32,9 @@ main{
     background-color: black;
     opacity: 90%;
 }
+.navigation .links .menuButton2{
+    display: none;
+}
 .navigation .links li{
     display: none;
 }
@@ -55,16 +57,24 @@ main{
 }
 .navigation .responsive{
     position: fixed;
-    width: 300px;
+    top: 0px;
+    width: 200px;
     height: 100vh;
     animation: mymove 1s;
 }
+.navigation .responsive2 .menuButton{
+    display: none;
+}
+.navigation .responsive .menuButton2{
+    display: block;
+    padding: 15px;
+    font-size: 1.5rem;
+}
 @keyframes mymove{
     from {left: -200px;}
-    to {left: 10px}
+    to {left: 0px}
     from {background-color: gray;;}
     to {background-color: black;}
-
 }
 .homePage .homeBanner img{
     width: 100%;

@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="../styles/home.css">
-    <title>Tieve</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../styles/home.css">
+        <script src="../scripts/index.js"></script>
+        <title>Tieve</title>
+    </head>
 <body>
     <header>
         <nav class="navigation">
-            <ul>
+            <div class="logo">
+                <button class="menuButton" onclick="toggleMenu()"><span class="dingbat">&#9776;</span></button>
+                <img src="../images/tieve-logo.PNG" alt="tieve brand logo" class="point1">
+                <a href="#" class="point4"><img src="../images/cart.jpg" alt="cart icon" class="point3"></a>
+            </div>
+            <ul class="links">
+                <button class="menuButton2" onclick="toggleMenu2()"><strong><span class="dingbat">X</span></strong></button>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Catalogue</a></li>
+                <li><a href="index.html">Catalogue</a></li>
                 <li><a href="#">About</a></li>
             </ul>
-            <a href=""><img src="../images/tieve-logo.PNG"></a>
-            <a href="#"><img src="../images/cart.jpg"></a>
         </nav>
     </header>
-
+    <main class="homePage">
+  
+    </main>
     <footer>
         <p>All rights reserved &copy; 2023 tieve clothing </p>
     </footer>
