@@ -60,8 +60,11 @@ main{
     animation: mymove 1s;
 }
 @keyframes mymove{
-    from {left: -400px;}
-    to {left: 0px}
+    from {left: -200px;}
+    to {left: 10px}
+    from {background-color: gray;;}
+    to {background-color: black;}
+
 }
 .homePage .homeBanner img{
     width: 100%;
