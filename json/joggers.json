@@ -1,0 +1,73 @@
+{"joggers": [
+    {
+      "brand": "Tieve",
+      "size": "10",
+      "imageURL": "/images/joggers/jogger1.jpg",
+      "price": 15000,
+      "color": "Black"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/joggers/jogger2.jfif",
+        "price": 20000,
+        "color": "Brown"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/joggers/jogger3.jpg",
+        "price": 20000,
+        "color": "Black"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/joggers/jogger4.jpg",
+        "price": 10000,
+        "color": "Yellow"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/joggers/jogger5.webp",
+        "price": 15000,
+        "color": "Peach"
+    },
+    {
+        "brand": "Tieve",
+        "size": "12",
+        "imageURL": "/images/joggers/jogger6.jpg",
+        "price": 23000,
+        "color": "Black & White"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/joggers/jogger7.webp",
+        "price": 18000,
+        "color": "Brown"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/joggers/jogger9.webp",
+        "price": 1800,
+        "color": "Gray & White"
+    },
+    {
+        "brand": "Tieve",
+        "size": "12",
+        "imageURL": "/images/joggers/jogger10.webp",
+        "price": 15000,
+        "color": "Gray"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/joggers/jogger11.jpg",
+        "price": 18000,
+        "color": "Black & White"
+    }
+  ]
+}

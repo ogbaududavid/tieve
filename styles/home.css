@@ -1,0 +1,272 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+.navigation .logo{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    align-items: center;
+}
+.navigation .logo button{
+    margin: 5px;
+}
+.navigation .logo .point1{
+    width: 80px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.navigation .logo .menuButton .dingbat{
+    width: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.navigation .logo .point4 .point3{
+    width: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.navigation .links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 90%;
+}
+.navigation .links .menuButton2{
+    display: none;
+}
+.navigation .links li{
+    display: none;
+}
+.navigation .links li:hover{
+    background-color: white;
+}
+.navigation .links li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+}
+.navigation .links li a:hover{
+    color: black;
+}
+.navigation .responsive li{
+    display: block;
+    z-index: 1;
+}
+.navigation .responsive{
+    position: fixed;
+    top: 0px;
+    width: 200px;
+    height: 100vh;
+    animation: mymove 1s;
+}
+.navigation .responsive2 .menuButton{
+    display: none;
+}
+.navigation .responsive .menuButton2{
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+@keyframes mymove{
+    from {left: -200px;}
+    to {left: 0px}
+    from {background-color: gray;;}
+    to {background-color: black;}
+}
+.homePage .homeBanner img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.homePage .homeCategories{
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.homePage .homeCategories .homeCards{
+    flex: 1 1 100%;
+    width: 60px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.homeCards:hover{
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+.homePage .homeCategories .homeCards img{
+    width: 50px;
+    height: 50px;
+}
+.homePage .homeCategories .homeCards a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: .7rem;
+}
+
+
+/** CATALOGUE VIEW **/
+.cataloguePage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.cataloguePage section{
+    width: 100px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.cataloguePage section img{
+    width: 90px;
+    height: 150px;
+}
+.cataloguePage section p{
+    color: white;
+    font-size: .6rem;
+    margin: 0;
+    padding: 2px;
+}
+.cataloguePage section button{
+    background-color: orange;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    font-size: .8rem;
+    width: 100px;
+}
+
+
+/** SHOES/JOGGERS/DRESSES VIEW **/
+.cards, .cards2, .cards3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards section, .cards2 section, .cards3 section{
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;  
+}
+.cards section img, .cards2 section img, .cards3 section img{
+    width: 99%;
+    margin: 0 auto;
+}
+.cards section p, .cards2 section p, .cards3 section p{
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+.cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 5px 10px;
+    background-color: orange;
+    border: 0;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/** CART PAGE / PAYMENT FORM**/
+.cartPage{
+    color: white;
+}
+.cartPage div h2{
+    text-align: center;
+}
+.cartPage div .divider{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.cartPage div .divider section img{
+    width: 90%;
+    margin: 0 auto;
+}
+.cartPage div .divider section p{
+    border-bottom: 1px solid white;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 0;
+}
+.cartPage .total{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    margin: 10px;
+}
+main .paymentForm{
+    
+}
+main .paymentForm fieldset{
+    text-align: center;
+    margin: 10px;
+}
+main .paymentForm .pInfo{
+    color: white;
+}
+main .paymentForm .pInfo input{
+    padding: 10px;
+    margin-bottom: 20px; 
+    font-size: 1.2rem;
+    width: 180px;
+}
+main .paymentForm legend{
+    color: white;
+}
+main .paymentForm .paymentBtn{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    background-color: orange;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    padding: 5px;
+    font: 1.3rem;
+    border-radius: 5px;
+}
+
+
+/** CHECKUT PAGE **/
+.checkoutPage .pInfo{
+    color: white;
+}
+
+body main{
+    margin-top: 50px;
+}

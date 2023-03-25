@@ -1,0 +1,73 @@
+{"shoes": [
+    {
+      "brand": "Tieve",
+      "size": "42",
+      "imageURL": "/images/shoes/shoe1.jpg",
+      "price": 25000,
+      "color": "Gold"
+    },
+    {
+        "brand": "XB",
+        "size": "40",
+        "imageURL": "/images/shoes/shoe2.jpg",
+        "price": 20000,
+        "color": "White"
+    },
+    {
+        "brand": "Tieve",
+        "size": "38",
+        "imageURL": "/images/shoes/shoe3.jpg",
+        "price": 20000,
+        "color": "Red"
+    },
+    {
+        "brand": "Luis Vuitton",
+        "size": "43",
+        "imageURL": "/images/shoes/shoe4.jpg",
+        "price": 35000,
+        "color": "White & Blue"
+    },
+    {
+        "brand": "Reebok",
+        "size": "38",
+        "imageURL": "/images/shoes/shoe5.jpg",
+        "price": 20000,
+        "color": "White & Black"
+    },
+    {
+        "brand": "Reebok",
+        "size": "40",
+        "imageURL": "/images/shoes/shoe6.jpg",
+        "price": 24000,
+        "color": "Black & White"
+    },
+    {
+        "brand": "Generic",
+        "size": "38",
+        "imageURL": "/images/shoes/shoe7.jpg",
+        "price": 18000,
+        "color": "White & Light Blue"
+    },
+    {
+        "brand": "Generic",
+        "size": "43",
+        "imageURL": "/images/shoes/shoe8.jpg",
+        "price": 18000,
+        "color": "Black"
+    },
+    {
+        "brand": "Luis Vuitton",
+        "size": "40",
+        "imageURL": "/images/shoes/shoe9.jpg",
+        "price": 45000,
+        "color": "Green & White"
+    },
+    {
+        "brand": "Tieve",
+        "size": "32",
+        "imageURL": "/images/shoes/shoe10.jpg",
+        "price": 23000,
+        "color": "Black & Light Blue"
+    }
+  ]
+}

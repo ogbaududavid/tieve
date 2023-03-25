@@ -1,0 +1,73 @@
+{"dresses": [
+    {
+      "brand": "Tieve",
+      "size": "10",
+      "imageURL": "/images/dresses/dress1.jpg",
+      "price": 25000,
+      "color": "Blue"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/dresses/dress2.jpg",
+        "price": 20000,
+        "color": "White"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/dresses/dress3.jpg",
+        "price": 20000,
+        "color": "Black"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/dresses/dress4.jpg",
+        "price": 35000,
+        "color": "Black"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/dresses/dress5.jpg",
+        "price": 20000,
+        "color": "Gold"
+    },
+    {
+        "brand": "Tieve",
+        "size": "12",
+        "imageURL": "/images/dresses/dress6.jpg",
+        "price": 18000,
+        "color": "Orange"
+    },
+    {
+        "brand": "Tieve",
+        "size": "8",
+        "imageURL": "/images/dresses/dress7.jpg",
+        "price": 18000,
+        "color": "Gold"
+    },
+    {
+        "brand": "Tieve",
+        "size": "14",
+        "imageURL": "/images/dresses/dress8.jpg",
+        "price": 18000,
+        "color": "Dark Green"
+    },
+    {
+        "brand": "Tieve",
+        "size": "14",
+        "imageURL": "/images/dresses/dress9.jpg",
+        "price": 45000,
+        "color": "Light Brown"
+    },
+    {
+        "brand": "Tieve",
+        "size": "10",
+        "imageURL": "/images/dresses/dress10.jpg",
+        "price": 23000,
+        "color": "Green"
+    }
+  ]
+}

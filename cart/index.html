@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/styles/home.css">
+    <link type="text/css" rel="stylesheet" href="/styles/normalize.css">
+    <script src="/js/index.js" defer></script>
+    <script src="/js/cart.js" defer></script>
+    <title>My Cart</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <button class="menuButton" onclick="toggleMenu()"><span class="dingbat">&#9776;</span></button>
+                <img src="/images/tieve-logo.PNG" alt="tieve brand logo" class="point1">
+                <a href="/cart/index.html" class="point4"><img src="/images/cart.jpg" alt="cart icon" class="point3"></a>
+            </div>
+            <ul class="links">
+                <button class="menuButton2" onclick="toggleMenu2()"><strong><span class="dingbat">X</span></strong></button>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/catalogue/index.html">Catalogue</a></li>
+                    <ul>
+                        <li><a href="/catalogue/shoes/shoes.html">Shoes</a></li>
+                        <li><a href="/catalogue//joggers/joggers.html">Joggers</a></li>
+                        <li><a href="/catalogue/dresses/dresses.html">Dresses</a></li>
+                    </ul>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cartPage">
+        </div>
+        <div class="paymentForm">
+            <form method="get" action="success.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="pInfo">First Name<br><input type="text" name="dAddress" required></label><br>
+                    <label class="pInfo">Last Name<br><input type="text" name="zipCode"  required></label><br>
+                    <label class="pInfo">Telephone<br><input type="tel" name="tel"></label><br>
+                    <label class="pInfo">Email<br><input type="email" name="tel"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Delivery Information</legend>
+                    <label class="pInfo">Delivery Adress<br><input type="text" name="dAddress" required></label><br>
+                    <label class="pInfo">Zip Code<br><input type="number" name="zipCode"  required></label><br>
+                </fieldset>
+                <input type="submit" value="Make Payment" class="paymentBtn">
+            </form>
+        </div>
+
+        
+    </main>
+    <footer>
+        <p>All rights reserved &copy; 2023 tieve clothing </p>
+    </footer>
+
+    
+</body>
+</html>
