@@ -76,6 +76,10 @@ header{
     display: block;
     padding: 10px;
     font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 5px solid orange;
 }
 @keyframes mymove{
     from {left: -200px;}
