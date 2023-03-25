@@ -62,6 +62,10 @@ header{
     display: block;
     z-index: 1;
 }
+.navigation .responsive li a:hover{
+    transform: scale(1.1);
+    color: orange;
+}
 .navigation .responsive{
     position: fixed;
     top: 0px;
