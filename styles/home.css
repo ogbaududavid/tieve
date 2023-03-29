@@ -7,6 +7,7 @@ header{
     width: 100vw;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 .navigation .logo{
     display: grid;
@@ -60,7 +61,7 @@ header{
 }
 .navigation .responsive li{
     display: block;
-    z-index: 1;
+    
 }
 .navigation .responsive li a:hover{
     transform: scale(1.1);
@@ -90,6 +91,10 @@ header{
     to {left: 0px}
     from {background-color: gray;;}
     to {background-color: black;}
+}
+.homePage .homeBanner{
+    display: flex;
+    flex-direction: column;
 }
 .homePage .homeBanner img{
     width: 100%;
@@ -175,23 +180,23 @@ footer p{
     flex-direction: column;
     align-items: center;
 }
-.cards section, .cards2 section, .cards3 section{
+.cards section, .cards2 section, .cards3 section, .searchedItems section{
     margin: 10px;
     background-color: white;
     width: 200px;
     padding: 5px;
     margin: 5px;  
 }
-.cards section img, .cards2 section img, .cards3 section img{
+.cards section img, .cards2 section img, .cards3 section img, .searchedItems section img{
     width: 99%;
     margin: 0 auto;
 }
-.cards section p, .cards2 section p, .cards3 section p{
+.cards section p, .cards2 section p, .cards3 section p, .searchedItems section p{
     color: black;
     border-bottom: 1px solid black;
     margin: 0;
 }
-.cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton{
+.cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton, .searchedItems section .addToCartButton{
     width: 90%;
     margin: 10px;
     padding: 5px;
@@ -278,3 +283,36 @@ main .paymentForm .paymentBtn{
 body main{
     margin-top: 50px;
 }
+
+/** SEARCHED ITEM VIEW**/
+.searchDiv{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    position: absolute;
+}
+.searchDiv .divider{
+    display: flex;
+    flex-direction: column;
+}
+.searchDiv .searchButton{
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border: none;   
+    background-color: orange;
+}
+.searchDiv .searchButton:hover{
+    background-color: gray;
+    border-radius: 5px;}
+.searchDiv .searchBox{
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    opacity: 80%;
+    border: 2px solid orange;
+}
+.searchDiv .searchedItems{
+    height: 100vh;
+ }

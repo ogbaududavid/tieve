@@ -10,4 +10,4 @@ function toggleMenu2(){
 	document.getElementsByClassName("logo")[0].style.gridTemplateColumns ="1fr 8fr 1fr";
 	document.getElementsByClassName("logo")[0].style.justifyItems ="left";
 }
-window.localStorage.setItem("visit", 0)
+window.localStorage.setItem("visit", 0);
