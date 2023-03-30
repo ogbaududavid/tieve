@@ -8,6 +8,7 @@
         <link type="text/css" rel="stylesheet" href="/styles/normalize.css">
         <script src="/js/catalogue.js" defer></script>
         <script src="/js/index.js" defer></script>
+        <script src="/js/search.js" defer></script>
         <title>Catalogue</title>
     </head>
 <body>
@@ -17,6 +18,17 @@
                 <button class="menuButton" onclick="toggleMenu()"><span class="dingbat">&#9776;</span></button>
                 <img src="/images/tieve-logo.PNG" alt="tieve brand logo" class="point1">
                 <a href="/cart/index.html" class="point4"><img src="/images/cart.jpg" alt="cart icon" class="point3"></a>
+            </div>
+            <div class="searchDivWrapper">
+                <div class="searchDiv">
+                    <div class="divider">
+                        <input class="searchBox" placeholder= "Brand, size or color" onkeyup="searchCatalogue() ">
+                        <div class="searchView">
+                            <div class="searchedItems"></div>
+                        </div>
+                    </div>
+                    <button class="searchButton" onclick="searchCatalogue()"><span>&#9906;</span></button>
+                </div>
             </div>
             <ul class="links">
                 <button class="menuButton2" onclick="toggleMenu2()"><strong><span class="dingbat">X</span></strong></button>

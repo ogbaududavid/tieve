@@ -29,7 +29,7 @@ function searchCatalogue(){
 			})
 	}
 	function searchItem(item){
-		if(item.brand == searchQuery || item.color == searchQuery || item.size == searchQuery){
+		if(item.brand.toLowerCase() == searchQuery.toLowerCase() || item.color.toLowerCase() == searchQuery.toLowerCase() || item.size.toLowerCase() == searchQuery.toLowerCase()){
 			displayItem(item);
 		}
 	}
