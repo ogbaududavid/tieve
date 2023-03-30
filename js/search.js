@@ -48,6 +48,7 @@ function searchCatalogue(){
         brand.textContent = "Brand: " +item.brand;
         size.textContent = "Size: " + item.size;
         color.textContent = "Color: " +item.color;
+        price.textContent = "Price: " +item.price;
     
         addToCartButton.setAttribute("class", "addToCartButton")
         addToCartButton.textContent = "Add to Cart";
