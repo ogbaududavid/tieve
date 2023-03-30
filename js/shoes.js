@@ -8,8 +8,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject){
-        const shoes = jsonObject["shoes"]; 
-        console.log(shoes);
+        const shoes = jsonObject["shoes"];
         shoes.forEach(displayItem);     
     })
 
@@ -35,9 +34,11 @@ fetch(requestURL)
         addToCartButton.addEventListener("click", function(){
             setTimeout(() => {
                 addToCartButton.style.backgroundColor = 'white';
+                addToCartButton.style.scale = '.95';
             }, 200);
             setTimeout(() => {
                 addToCartButton.style.backgroundColor = 'orange';
+                addToCartButton.style.scale = '1';
             }, 400);
             const itemDetails = {
                 "image": shoe.imageURL, 
