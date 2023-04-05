@@ -1,0 +1,234 @@
+@media screen and (min-width: 40.2rem){
+    body{
+        width: 90%;
+        margin: 0 auto;
+    }
+    header{
+        border-bottom: 2px solid white;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .navigation .responsive{
+        position: absolute;
+    }
+    .navigation .responsive2 .menuButton{
+        display: none;
+    }
+    .navigation .responsive .menuButton2{
+        display: block;
+        padding: 10px;
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+        border: none;
+        border-bottom: 5px solid orange;
+    }
+    @keyframes mymove{
+        from {left: -200px;}
+        to {left: 0px}
+        from {background-color: gray;;}
+        to {background-color: black;}
+    }
+    
+     /** CATALOGUE VIEW **/
+    .cataloguePage{
+        justify-items: center;
+        align-items: center;
+        margin-top: 100px;
+     }
+    .cataloguePage .shoesDiv,  .cataloguePage .joggersDiv,  .cataloguePage .dressesDiv{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cataloguePage .shoesDiv section,  .cataloguePage .joggersDiv section,  .cataloguePage .dressesDiv section{
+        height: 400px;
+        align-items:center;
+        margin-bottom: 50px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .cataloguePage .shoesDiv section img, .cataloguePage .joggersDiv section img, .dressesDiv section img{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    .cataloguePage .shoesDiv section p, .cataloguePage .joggersDiv section p, .dressesDiv section p{
+        color: white;
+        font-size: 1rem;
+        padding: 2px;
+    }
+    .cataloguePage section button{
+        background-color: orange;
+        border-radius: 5px;
+        border: 0;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+
+    /** SHOES/JOGGERS/DRESSES VIEW **/
+    .cards, .cards2, .cards3{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+    .cards section, .cards2 section, .cards3 section, .searchedItems section{
+        background-color: white;
+        width: 80%;
+        height: 90%;
+        margin: 5px; 
+        margin-bottom: 30px; 
+    }
+    .cards section img, .cards2 section img, .cards3 section img, .searchedItems section img{
+        width: 150px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .cards section p, .cards2 section p, .cards3 section p, .searchedItems section p{
+        color: black;
+        border-bottom: 1px solid black;
+        margin: 0;
+    }
+    .cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton, .searchedItems section .addToCartButton{
+        width: 90%;
+        margin: 10px;
+        padding: 5px;
+        box-shadow: 0 5px 10px;
+        background-color: orange;
+        border: 0;
+        color: black;
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+    /** CART PAGE / PAYMENT FORM**/
+    .cartPage{
+        color: white;
+    }
+    .cartPage div h2{
+        text-align: center;
+    }
+    .cartPage div .divider{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .cartPage div .divider section img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cartPage div .divider section p{
+        border-bottom: 1px solid white;
+        font-size: 1rem;
+        padding: 2px;
+        margin: 0;
+    }
+    .cartPage .total{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+        background-color: orange;
+        text-align: center;
+        margin: 10px;
+    }
+    main .paymentForm{
+        
+    }
+    main .paymentForm fieldset{
+        text-align: center;
+        margin: 10px;
+    }
+    main .paymentForm .pInfo{
+        color: white;
+    }
+    main .paymentForm .pInfo input{
+        padding: 10px;
+        margin-bottom: 20px; 
+        font-size: 1.2rem;
+        width: 180px;
+    }
+    main .paymentForm legend{
+        color: white;
+    }
+    main .paymentForm .paymentBtn{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        background-color: orange;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 0;
+        padding: 5px;
+        font: 1.3rem;
+        border-radius: 5px;
+    }
+
+
+    /** CHECKUT PAGE **/
+    .checkoutPage .pInfo{
+        color: white;
+    }
+
+    body main{
+        margin-top: 50px;
+    }
+
+    /** SEARCHED ITEM VIEW**/
+    .searchDivWrapper{
+        position: absolute;
+        margin-top: 10px;
+        right: 10px;
+        
+    }
+    .searchDiv{
+        display: flex;
+        flex-direction: row;
+    }
+    .searchDiv .divider{
+        display: flex;
+        flex-direction: column;
+    }
+    .searchDiv .searchButton span{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .searchDiv .searchButton{
+        width: 40px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 3px;
+        margin-left: 2px;
+        border: none;   
+        background-color: orange;
+    }
+    .searchDiv .searchButton:hover{
+        background-color: gray;
+        border-radius: 5px;}
+    .searchDiv .searchBox{
+        border-radius: 5px;
+        padding: 3px;
+        width: 120px;
+        opacity: 80%;
+        border: 2px solid orange;
+    }
+    .searchDiv .searchedItems{
+        height: 50vh;
+        position: absolute;
+        margin-top: 5px;
+        right: 0px;
+    }
+}

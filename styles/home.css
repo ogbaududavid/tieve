@@ -152,7 +152,8 @@ footer p{
 .cataloguePage section{
     width: 100px;
     height: 200px;
-    margin-bottom: 50px;
+    margin: 2px;
+    margin-bottom: 100px;
 }
 .cataloguePage section img{
     width: 90px;
@@ -163,6 +164,8 @@ footer p{
     font-size: .6rem;
     margin: 0;
     padding: 2px;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
 .cataloguePage section button{
     background-color: orange;
@@ -171,6 +174,7 @@ footer p{
     font-weight: bold;
     font-size: .8rem;
     width: 100px;
+    margin-top: 10px;
 }
 
 
@@ -185,7 +189,8 @@ footer p{
     background-color: white;
     width: 200px;
     padding: 5px;
-    margin: 5px;  
+    margin: 5px; 
+    margin-bottom: 20px; 
 }
 .cards section img, .cards2 section img, .cards3 section img, .searchedItems section img{
     width: 99%;
@@ -195,6 +200,7 @@ footer p{
     color: black;
     border-bottom: 1px solid black;
     margin: 0;
+    text-align: center;
 }
 .cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton, .searchedItems section .addToCartButton{
     width: 90%;
