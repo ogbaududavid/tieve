@@ -288,6 +288,9 @@ main .paymentForm .paymentBtn{
 
 
 /** CHECKUT PAGE **/
+.main-cart-payment{
+    margin-top: 100px;
+}
 .checkoutPage .pInfo{
     color: white;
 }
