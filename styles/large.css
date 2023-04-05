@@ -1,33 +1,15 @@
 @media screen and (min-width: 40.2rem){
     body{
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
     header{
         border-bottom: 2px solid white;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
     .navigation .responsive{
         position: absolute;
-    }
-    .navigation .responsive2 .menuButton{
-        display: none;
-    }
-    .navigation .responsive .menuButton2{
-        display: block;
-        padding: 10px;
-        font-size: 1.5rem;
-        background-color: black;
-        color: white;
-        border: none;
-        border-bottom: 5px solid orange;
-    }
-    @keyframes mymove{
-        from {left: -200px;}
-        to {left: 0px}
-        from {background-color: gray;;}
-        to {background-color: black;}
     }
     
      /** CATALOGUE VIEW **/
@@ -46,10 +28,10 @@
         margin-bottom: 50px;
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .cataloguePage .shoesDiv section img, .cataloguePage .joggersDiv section img, .dressesDiv section img{
-        width: 300px;
+        width: 200px;
         height: 300px;
         display: block;
         margin: 0 auto;
@@ -58,6 +40,8 @@
         color: white;
         font-size: 1rem;
         padding: 2px;
+        text-align: center;
+        border-bottom: 0;
     }
     .cataloguePage section button{
         background-color: orange;
@@ -65,10 +49,10 @@
         border: 0;
         font-weight: bold;
         font-size: 1rem;
-        width: 100%;
+        width: 200px;
         display: block;
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
 
@@ -77,8 +61,8 @@
         margin-top: 100px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        align-items: center;
         justify-items: center;
+        
     }
     .cards section, .cards2 section, .cards3 section, .searchedItems section{
         background-color: white;
@@ -99,31 +83,11 @@
         border-bottom: 1px solid black;
         margin: 0;
     }
-    .cards section .addToCartButton, .cards2 section .addToCartButton, .cards3 section .addToCartButton, .searchedItems section .addToCartButton{
-        width: 90%;
-        margin: 10px;
-        padding: 5px;
-        box-shadow: 0 5px 10px;
-        background-color: orange;
-        border: 0;
-        color: black;
-        font-size: 1.2rem;
-        border-radius: 5px;
-    }
 
     /** CART PAGE / PAYMENT FORM**/
-    .cartPage{
-        color: white;
-    }
-    .cartPage div h2{
-        text-align: center;
-    }
-    .cartPage div .divider{
+    .main-cart-payment{
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        width: 80%;
-        margin: 0 auto;
-        align-items: center;
+        grid-template-columns: 1fr 1fr;
     }
     .cartPage div .divider section img{
         width: 90%;
@@ -178,7 +142,7 @@
     }
 
 
-    /** CHECKUT PAGE **/
+    /** CHECKOUT PAGE **/
     .checkoutPage .pInfo{
         color: white;
     }
@@ -227,8 +191,9 @@
     }
     .searchDiv .searchedItems{
         height: 50vh;
+        width: 250px;
         position: absolute;
         margin-top: 5px;
-        right: 0px;
+        right: 0;
     }
 }

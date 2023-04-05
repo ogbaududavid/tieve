@@ -32,6 +32,10 @@ header{
     padding: 5px;
     margin-right: 10px;
 }
+.navigation .logo a{
+    text-align: right;
+
+}
 .navigation .links {
     display: flex;
     flex-direction: column;
@@ -76,6 +80,7 @@ header{
 }
 .navigation .responsive2 .menuButton{
     display: none;
+    width: 100px;
 }
 .navigation .responsive .menuButton2{
     display: block;
@@ -85,6 +90,7 @@ header{
     color: white;
     border: none;
     border-bottom: 5px solid orange;
+    text-align: center;
 }
 @keyframes mymove{
     from {left: -200px;}

@@ -7,7 +7,9 @@ function toggleMenu(){
 function toggleMenu2(){
 	document.getElementsByClassName("links")[0].classList.toggle("responsive");
 	document.getElementsByClassName("menuButton")[0].style.display="block";
+	document.getElementsByClassName("menuButton")[0].style.width="100px";
 	document.getElementsByClassName("logo")[0].style.gridTemplateColumns ="1fr 8fr 1fr";
 	document.getElementsByClassName("logo")[0].style.justifyItems ="left";
+	document.getElementsByClassName("point4")[0].style.justifySelf ="right";
 }
 window.localStorage.setItem("visit", 0);
