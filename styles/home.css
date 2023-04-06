@@ -47,7 +47,7 @@ header{
     background-color: black;
     opacity: 90%;
 }
-.navigation .links .menuButton2{
+.navigation .logo .menuButton2{
     display: none;
 }
 .navigation .links li{
@@ -71,34 +71,29 @@ header{
     
 }
 .navigation .responsive li a:hover{
+    margin-left: 30px;
     transform: scale(1.1);
     color: orange;
 }
 .navigation .responsive{
+    border-top: 5px solid orange;
     position: fixed;
-    top: 0px;
-    width: 200px;
+    top: 52px;
+    width: 100vw;
     height: 100vh;
     animation: mymove 1s;
 }
 .navigation .responsive2 .menuButton{
     display: none;
 }
-.navigation .responsive .menuButton2{
-    display: block;
-    padding: 10px;
-    font-size: 1.5rem;
-    background-color: black;
-    color: white;
-    border: none;
-    border-bottom: 5px solid orange;
-    text-align: center;
-}
 @keyframes mymove{
-    from {left: -200px;}
+    from {left: -400px;}
     to {left: 0px}
     from {background-color: gray;;}
     to {background-color: black;}
+}
+main{
+    margin-bottom: 300px;
 }
 .homePage .homeBanner{
     display: flex;
