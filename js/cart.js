@@ -1,6 +1,6 @@
 const cartPage = document.querySelector(".cartPage");
-let cartItems = window.localStorage.getItem("cart");
-cartItems = JSON.parse(cartItems);
+let cartItems = window.localStorage.getItem("local-cart");
+let cartItems2 = JSON.parse(cartItems);
 let div = document.createElement("div");
 let divider = document.createElement("div");
 let HTMLtotal = document.createElement("p");
@@ -9,11 +9,10 @@ divider.setAttribute("class", "divider");
 let total =0;
 
 
-
-for (i in cartItems){
+for (i in cartItems2["savedItems"]){
     let section1 = document.createElement("section");
     let section2 = document.createElement("section");
-    let item = cartItems[i];
+    let item = cartItems2["savedItems"][i];
     const image = item.image;
     const brand = item.brand;
     const size = item.size;

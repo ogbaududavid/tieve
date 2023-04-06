@@ -1,8 +1,14 @@
 let cards3 = document.querySelector(".cards3");
 let cartIcon = document.querySelector(".point3");
 const requestURL = "/json/dresses.json";
-let cart = [];
-counter = 0;
+let localCart5 = window.localStorage.getItem("local-cart");
+    localCart6 = JSON.parse(localCart5);
+if(localCart5 == null){
+    savedItems = {"savedItems": []};
+    window.localStorage.setItem("local-cart", JSON.stringify(savedItems));
+    localCart5 = window.localStorage.getItem("local-cart");
+    localCart6 = JSON.parse(localCart5);
+}
 let items = {};
 fetch(requestURL)
     .then(function(response){
@@ -48,9 +54,8 @@ function displayItem(dress){
             "color": dress.color, 
             "price": dress.price
         };
-        cart.push(itemDetails);
-        let newCart = JSON.stringify(cart);
-        window.localStorage.setItem("cart", newCart);
+        localCart6["savedItems"].push(itemDetails);
+        window.localStorage.setItem("local-cart", JSON.stringify(localCart6));
         setTimeout(() => {
             cartIcon.style.transform = 'scale(1.3, 1.3)';
             cartIcon.style.transitionDuration =".3s";

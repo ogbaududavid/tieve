@@ -27,6 +27,9 @@ header{
     padding: 5px;
     font-size: 1.5rem;
 }
+.navigation .logo .menuButton{
+    width: 70px;
+}
 .navigation .logo .point4 .point3{
     width: 40px;
     padding: 5px;
@@ -80,7 +83,6 @@ header{
 }
 .navigation .responsive2 .menuButton{
     display: none;
-    width: 100px;
 }
 .navigation .responsive .menuButton2{
     display: block;
@@ -140,12 +142,14 @@ header{
 }
 footer{
     background-color: black;
+    border-top: 1px solid white;
 }
 footer p{
     color: white;
-    padding: 5px;
+    padding: 0;
+    margin: 2px;
     text-align: center;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 
@@ -286,6 +290,21 @@ main .paymentForm .paymentBtn{
     border-radius: 5px;
 }
 
+/**ABOUT PAGE**/
+.aboutPage{
+    
+    padding: 5px;
+    margin: 10px;
+    margin-top: 100px;
+}
+.aboutPage h1{
+    color: white;
+    text-align: center;
+}
+.aboutPage p{
+    color: white;
+    text-align: justify;
+}
 
 /** CHECKUT PAGE **/
 .main-cart-payment{
@@ -342,4 +361,20 @@ body main{
     position: absolute;
     margin-top: 5px;
     right: 0px;
+ }
+
+
+ /**SUCCESS PAGE**/
+ .success-page h1{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+ }
+ .success-page a{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
  }

@@ -72,10 +72,12 @@
         margin-bottom: 30px; 
     }
     .cards section img, .cards2 section img, .cards3 section img, .searchedItems section img{
-        width: 150px;
-        height: 200px;
-        display: block;
-        margin: 0 auto;
+        width: 100px;
+        height: 150px;
+        max-width: 150px;
+        max-height: 200px;
+        display: flex;
+        align-items: center;
         margin-bottom: 10px;
     }
     .cards section p, .cards2 section p, .cards3 section p, .searchedItems section p{
@@ -141,6 +143,16 @@
         border-radius: 5px;
     }
 
+    /**ABOUT PAGE**/
+    .aboutPage{
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .aboutPage h1{
+        text-align: center;
+        color: white;
+    }
 
     /** CHECKOUT PAGE **/
     .checkoutPage .pInfo{
@@ -155,8 +167,7 @@
     .searchDivWrapper{
         position: absolute;
         margin-top: 10px;
-        right: 10px;
-        
+        right: 10px;        
     }
     .searchDiv{
         display: flex;
@@ -190,10 +201,16 @@
         border: 2px solid orange;
     }
     .searchDiv .searchedItems{
-        height: 50vh;
+        height: 70vh;
         width: 250px;
         position: absolute;
         margin-top: 5px;
         right: 0;
+    }
+    .searchDiv .searchedItems section{
+        background-color: rgb(221, 218, 218);
+        height: 300px;
+        margin-bottom: 20px;
+        border: 5px solid orange;
     }
 }

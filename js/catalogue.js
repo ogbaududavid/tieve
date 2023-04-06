@@ -9,7 +9,15 @@ const urlList = [shoesURL, joggersURL, dressesURL];
 const jsonFilesArray = ["shoes", "joggers", "dresses"];
 const classesArray = [ shoes, joggers, dresses];
 counter = 0;
-let cart = [];
+let localCart7 = window.localStorage.getItem("local-cart");
+let localCart8 = JSON.parse(localCart7);
+
+if(localCart7 == null){
+    savedItems = {"savedItems": []};
+    window.localStorage.setItem("local-cart", JSON.stringify(savedItems));
+    localCart7 = window.localStorage.getItem("local-cart");
+    localCart8 = JSON.parse(localCart7);
+}
 
 for (var i = 0; i < urlList.length; i++){
     const url = urlList[i];
@@ -62,9 +70,8 @@ function displayItem(item){
             "color": item.color, 
             "price": item.price
         };
-        cart.push(itemDetails);
-        let newCart = JSON.stringify(cart);
-        window.localStorage.setItem("cart", newCart);
+        localCart8["savedItems"].push(itemDetails);
+        window.localStorage.setItem("local-cart", JSON.stringify(localCart8));
         setTimeout(() => {
             cartIcon.style.transform = 'scale(1.3, 1.3)';
             cartIcon.style.transitionDuration =".3s";

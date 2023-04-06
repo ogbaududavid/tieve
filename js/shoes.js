@@ -1,9 +1,17 @@
 let cards2 = document.querySelector(".cards2");
 let cartIcon = document.querySelector(".point3");
 const requestURL = "/json/shoes.json";
-let cart = [];
-let items = {};
-fetch(requestURL)
+let localCart1 = window.localStorage.getItem("local-cart");
+    localCart2 = JSON.parse(localCart1);
+
+if(localCart1 == null){
+    savedItems = {"savedItems": []};
+    window.localStorage.setItem("local-cart", JSON.stringify(savedItems));
+    localCart1 = window.localStorage.getItem("local-cart");
+    localCart2 = JSON.parse(localCart1);
+}
+
+    fetch(requestURL)
     .then(function(response){
         return response.json();
     })
@@ -47,9 +55,8 @@ fetch(requestURL)
                 "color": shoe.color, 
                 "price": shoe.price
             };
-            cart.push(itemDetails);
-            let newCart = JSON.stringify(cart);
-            window.localStorage.setItem("cart", newCart);
+            localCart2["savedItems"].push(itemDetails);
+            window.localStorage.setItem("local-cart", JSON.stringify(localCart2));
             setTimeout(() => {
                 cartIcon.style.transform = 'scale(1.3, 1.3)';
                 cartIcon.style.transitionDuration =".3s";
