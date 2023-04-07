@@ -229,6 +229,10 @@
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
+    main .paymentForm .pInfo{
+        color: black;
+        font-size: 1.2rem;
+    }
     main .paymentForm legend{
         color: black;
     }
