@@ -4,7 +4,7 @@ let cartItems2 = JSON.parse(cartItems);
 let div = document.createElement("div");
 let divider = document.createElement("div");
 let HTMLtotal = document.createElement("p");
-let HTMLorderSummary = document.createElement("h2")
+let HTMLorderSummary = document.createElement("h2");
 divider.setAttribute("class", "divider");
 let total =0;
 
@@ -45,8 +45,8 @@ for (i in cartItems2["savedItems"]){
     divider.appendChild(section2);
 }
 HTMLorderSummary.textContent = "ORDER SUMMARY"
-HTMLtotal.setAttribute("class", "total"); 
-HTMLtotal.textContent = "Total Amount (N): " +total
+HTMLtotal.setAttribute("class", "total");
+HTMLtotal.textContent = "Total Amount: N"+total.toLocaleString("en-US");
 div.appendChild(HTMLorderSummary);
 div.appendChild(divider);
 div.appendChild(HTMLtotal);

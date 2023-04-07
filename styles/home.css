@@ -245,11 +245,11 @@ footer p{
     padding: 2px;
     margin: 0;
 }
-.cartPage .total{
+.cartPage div .total{
     padding: 10px;
     text-decoration: none;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     background-color: orange;
     text-align: center;
     margin: 10px;
