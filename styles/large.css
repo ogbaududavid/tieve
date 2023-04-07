@@ -20,6 +20,11 @@
         transform: scale(1);
         color: orange;
     }
+    .homePage .homeBanner img{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
     
      /** CATALOGUE VIEW **/
     .cataloguePage{
