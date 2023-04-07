@@ -222,4 +222,32 @@
         margin-bottom: 20px;
         border: 5px solid orange;
     }
+
+
+        /** CART PAGE / PAYMENT FORM**/
+    .main-cart-payment{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    main .paymentForm legend{
+        color: black;
+    }
+    .cartPage .divider .section1 img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .cartPage div .divider{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    main .paymentForm .paymentBtn{
+       
+        background-color: black;
+        box-shadow: 0 2px 20px black;
+        width: 90%;
+    }
+    main .paymentForm .paymentBtn:active{
+        background-color: gray;
+    }
 }
