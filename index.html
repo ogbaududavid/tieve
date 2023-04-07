@@ -17,7 +17,7 @@
             <div class="logo">
                 <div>
                     <button class="menuButton" onclick="toggleMenu()"><span class="dingbat">&#9776;</span></button>
-                    <button class="menuButton2" onclick="toggleMenu2()"><strong><span class="dingbat">X</span></strong></button>
+                    <button class="menuButton2" onclick="toggleMenu2()" ><strong><span class="dingbat">X</span></strong></button>
                 </div>
                 <img src="/images/tieve-logo.PNG" alt="tieve brand logo" class="point1">
                 <a href="/cart/index.html" class="point4"><img src="/images/cart.jpg" alt="cart icon" class="point3"></a>
@@ -45,22 +45,24 @@
             </ul>
         </nav>
     </header>
-    <main class="homePage" onload="toggleHome()">
+    <main class="homePage">
         <div class="homeBanner">
             <img src="images/banner.jpg" alt="image of a boutique">
         </div>
-        <div class="homeCategories">
-            <div class="homeCards">
-                <a href="catalogue/shoes.html"><img src="images/shoe-icon.jpg" alt="a shoe icon"></a>
-                <a href="catalogue/shoes.html">Shoes</a>
-            </div>
-            <div class="homeCards">
-                <a href="catalogue/joggers.html"><img src="images/joggers-icon.jpg" alt="two piece joggers image"></a>
-                <a href="catalogue/joggers.html">Joggers</a>
-            </div>
-            <div class="homeCards">
-                <img src="images/dress-icon.webp" alt="Dresses">
-                <a href="#">Dresses</a>
+        <div class="homeCategoriesWrapper">
+            <div class="homeCategories">
+                <div class="homeCards">
+                    <a href="/catalogue/shoes/shoes.html"><img src="images/shoe-icon.jpg" alt="a shoe icon"></a>
+                    <a href="catalogue/shoes/shoes.html">Shoes</a>
+                </div>
+                <div class="homeCards">
+                    <a href="catalogue/joggers/joggers.html"><img src="images/joggers-icon.jpg" alt="two piece joggers image"></a>
+                    <a href="catalogue/joggers/joggers.html">Joggers</a>
+                </div>
+                <div class="homeCards">
+                    <a href="catalogue//dresses/dresses.html"><img src="images/dress-icon.webp" alt="Dresses"></a>
+                    <a href="catalogue//dresses/dresses.html">Dresses</a>
+                </div>
             </div>
         </div>
     </main>

@@ -88,7 +88,7 @@ header{
 @keyframes mymove{
     from {left: -400px;}
     to {left: 0px}
-    from {background-color: gray;;}
+    from {background-color: gray;}
     to {background-color: black;}
 }
 main{
@@ -102,14 +102,27 @@ main{
     width: 100%;
     margin-bottom: 50px;
 }
-.homePage .homeCategories{
+.homePage .homeCategoriesWrapper .homeCategories{
+    display: none;   
+}
+.homePage .responsive3 .homeCategories{
+    display: flex;
+    flex-direction: row;
+}
+.homePage .responsive3{
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
+    animation: slideup 2s;   
+}
+@keyframes slideup{
+    from {top: 200vh;}
+    to {top: 0px}
 }
 .homePage .homeCategories .homeCards{
     flex: 1 1 100%;

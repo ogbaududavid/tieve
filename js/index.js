@@ -18,6 +18,7 @@ function toggleMenu2(){
 	document.getElementsByClassName("logo")[0].style.justifyItems ="left";
 	document.getElementsByClassName("point4")[0].style.justifySelf ="right";
 }
-function toggleHome(){
-	document.getElementsByClassName("homeCategories").toggle("responsive3");
-}
+document.addEventListener('DOMContentLoaded', function() {
+	document.getElementsByClassName("homeCategoriesWrapper")[0].classList.toggle("responsive3");
+ }, false);
+	
